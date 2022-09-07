@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourDailyDoseOfNews</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+
+        <nav>
+            <div class="nav-content">
+                <img src="logo.png" class="logo" alt="" width="167px" height="118px" > 
+                <h3 style="color: white;" id="date">Date: </h3>
+
+                <div id="right-side">   
+                    <a id="donate" href="#">Donate</a>
+
+                    <div id="search">
+                        <button id="magnifiying-glass"><img height="30px" width="30px" onclick="showSearchBox()" src="search.png" alt=""></i></button>
+                    </div>
+
+                 </div>
+            </div> 
+        </nav>
+        
+
+    <div class="container">
+        <section id="info">
+            <div id="upperBorder">
+                <button id="closeInfo" onclick="removeInfo()">X</button>
+            </div>
+            <div id="content">
+
+                <div class="infoCard">
+                    <div class="top"><h2>Who are we?</h2></div>
+                    <div class="bottom"><p>YourDailyDoseOfNews is a non-profit project made to limit the number of news people read on a daily basis, because reading news is becoming more and more addictive, for more and more people.</p></div>
+                </div>
+
+                <div class="logoAndName">
+                    <p>YourDailyDoseOfNews</p>
+                </div>
+
+                <div  class="infoCard">
+                    <div class="top"><h2>Disclaimer!</h2></div>
+                    <div class="bottom"><p>We have no control over the news that are posted here, they are automatically reposted from the inital websites.</p></div>
+                </div>
+
+            </div>
+        </section>
+        
+        <section id="pageContent">
+
+            <h1 id='note'  class="hide" style="text-align:center;">Refresh the page to get a country you deleted!</h1>
+
+
+            <div class="countryNews"  id="kuwait">
+                <div class="header">
+                    <h1>Kuwait</h1>
+                    <div class="btns">
+                        <button class="minimize" onclick="minimize('kuwait')">-</button>
+                        <button class="delete" onclick="deleteEl('kuwait')">X</button>
+                    </div>
+                </div>
+                <div class="cards">
+
+
+                    <div class="card1 card">
+                        <div class="picture">
+                            <img src="flag.png" alt="">
+                        </div>
+                        <h3>Kuwait is becoming one of the best countries in its very quick development</h3>
+                        <p><a href="#">Read More</a></p>
+                    </div>
+
+                    <div class="card2 card">
+                        <div class="picture">
+                            <img src="flag.png" alt="">
+                        </div>
+                        <h3>Kuwait is becoming one of the best countries in its very quick development</h3>
+                        <p><a href="#">Read More</a></p>
+                    </div>
+
+                    <div class="card3 card">
+                        <div class="picture">   
+                            <img src="flag.png" alt=""> 
+                        </div>
+                        <h3>Kuwait is becoming one of the best countries in its very quick development</h3>
+                        <p><a href="#">Read More</a></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="countryNews"  id="qatar">
+                <div class="header">
+                    <h1>Qatar</h1>
+                    <div class="btns">
+                        <button class="minimize" onclick="minimize('qatar')">-</button>
+                        <button class="delete" onclick="deleteEl('qatar')">X</button>
+                    </div>
+                </div>
+                <div class="cards">
+                <div class="card1 card">
+                    <div class="picture">
+                        <img src="flag.png" alt="">
+                    </div>
+                    <h3>Kuwait is becoming one of the best countries in its very quick development</h3>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                <div class="card2 card">
+                    <div class="picture">
+                        <img src="flag.png" alt="">
+                    </div>
+                    <h3>Kuwait is becoming one of the best countries in its very quick development</h3>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                <div class="card3 card">
+                    <div class="picture">
+                        <img src="flag.png" alt=""> 
+                    </div>
+                    <h3>Kuwait is becoming one of the best countries in its very quick development</h3>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                </div>
+            </div>
+
+            <div class="countryNews" id="bahrain">
+                <div class="header">
+                    <h1>Bahrain</h1>
+                    <div class="btns">
+                        <button class="minimize" onclick="minimize('bahrain')">-</button>
+                        <button class="delete" onclick="deleteEl('bahrain')">X</button>
+                    </div>
+                </div>
+                <div class="cards">
+                <div class="card1 card">
+                    <div class="picture">
+                        <img src="flag.png" alt="">
+                    </div>
+                    <h3>Kuwait is becoming one of the best countries in its very quick development</h3>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                <div class="card2 card">
+                    <div class="picture">
+                        <img src="flag.png" alt="">
+                    </div>
+                    <h3>Kuwait is becoming one of the best countries in its very quick development</h3>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                <div class="card3 card">
+                    <div class="picture">
+                        <img src="flag.png" alt=""> 
+                    </div>
+                    <h3> is becoming one of the best countries in its very quick sui</h3>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                </div>
+            </div>
+
+            <div class="countryNews" id="saudi">
+                <div class="header">
+                    <h1>Saudi Arabia</h1>
+                    <div class="btns">
+                        <button class="minimize" onclick="minimize('saudi')">-</button>
+                        <button class="delete" onclick="deleteEl('saudi')">X</button>
+                    </div>
+                </div>
+                <div class="cards">
+                <div class="card1 card">
+                    <div class="picture">
+                        <img src="flag.png" alt="">
+                    </div>
+                    <h3>Syria is becoming one of the best countries in its very quick development</h3>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                <div class="card2 card">
+                    <div class="picture">
+                        <img src="flag.png" alt="">
+                    </div>
+                    <h3>Iraq is becoming one of the best countries in its very quick development</h3>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                <div class="card3 card">
+                    <div class="picture">
+                        <img src="flag.png" alt=""> 
+                    </div>
+                    <h3>Kuwait is becoming one of the best countries in its very quick development</h3>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                </div>
+            </div>
+
+            <div class="countryNews" id="uae">
+                <div class="header">
+                    <h1>UAE</h1>
+                    <div class="btns">
+                        <button class="minimize" onclick="minimize('uae')">-</button>
+                        <button class="delete" onclick="deleteEl('uae')">X</button>
+                    </div>
+                </div>
+                <div class="cards">
+                <div class="card1 card">
+                    <div class="picture">
+                        <img src="flag.png" alt="">
+                    </div>
+                    <h3>Iraq is becoming one of the best countries in its very quick development</h3>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                <div class="card2 card">
+                    <div class="picture">
+                        <img src="flag.png" alt="">
+                    </div>
+                    <h3>Kuwait is becoming one of the best countries in its very quick development</h3>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                <div class="card3 card">
+                    <div class="picture">
+                        <img src="flag.png" alt=""> 
+                    </div>
+                    <h3>Iraq is becoming one of the best countries in its very quick development</h3>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                </div>
+            </div>
+            
+        </section>
+
+    </div>
+
+    <script>
+
+        var rightSide = document.getElementById('right-side');
+        var search = document.getElementById('search')
+
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+
+        var mm = String(today.getMonth() + 1).padStart(2, '0');     
+        var yyyy = today.getFullYear();
+
+        today = dd + '/' + mm + '/' + yyyy;
+        document.getElementById('date').innerText = "Date: "+ today
+
+        let cards = document.getElementsByClassName('card')
+        let countries = Array.from(document.getElementsByClassName('countryNews'))
+
+        function showSearchBox(){      
+                rightSide.style.width = "350px";
+                setTimeout(() => { search.innerHTML = `<input type="text" id='textInput'><button onclick="hideSearchBox()" id="hide">X</button>`; }, 800);         
+                
+                setTimeout(() => { 
+                    document.getElementById('textInput').addEventListener('input', e=> {
+                        const value = e.target.value.toLowerCase()
+                        Array.from(cards).forEach(element => {
+                            const isVisible =  element.innerText.toLowerCase().includes(value)
+                            
+                            element.classList.toggle('hide', !isVisible)
+                            
+                        });
+
+                    })
+                 }, 900);      
+                          
+        }
+
+            function minimize(id){
+                let targetedE = document.getElementById(id).childNodes[3]
+                let btn = document.querySelector(`#${id} .minimize`)
+                if (targetedE.style.display=='none'){
+                    targetedE.style.display='flex'
+                    btn.innerText = '-'
+                    btn.style.backgroundColor = 'blue'
+                } else{
+                    targetedE.style.display='none'
+                    btn.innerText = '='
+                    btn.style.backgroundColor = 'green'
+
+
+                }}
+
+            function deleteEl(id){
+                document.getElementById(id).remove()
+                document.getElementById('note').style.display = 'block'
+            }
+
+        function hideSearchBox(){
+            Array.from(cards).forEach(element => {
+                element.style.display="block"
+            })
+            search.innerHTML = `<button id="magnifiying-glass"><img height="30px" width="30px" onclick="showSearchBox()" src="search.png" alt=""></i></button>`
+            rightSide.style.width = "150px"
+            document.getElementById('inputText').value = ''
+        }
+
+        function removeInfo(){
+            document.getElementById('info').classList.add("deleteAnimation")
+            setTimeout(() => { document.getElementById('pageContent').style.top = "-350px"; }, 350);
+        }
+
+     
+        
+    </script>
+</body>
+</html>
