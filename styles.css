@@ -354,3 +354,13 @@ footer{
     border: 1px solid black;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 1200px) {
+    .everything {
+      display: none;
+    }
+    #mediaQuery{
+        display: block;
+        text-align: center;
+    }
+  }
